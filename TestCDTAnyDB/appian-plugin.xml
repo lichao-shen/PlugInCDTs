@@ -1,0 +1,17 @@
+<appian-plugin name="TestCDTAnyDB" key="testcdtanydb">
+
+  <plugin-info>
+    <description>TestCDTAnyDB</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.0.0</version>
+    <application-version min="6.1.0" />
+  </plugin-info>
+
+
+  <datatype key="testCDTDB" name="testCDTDB">
+        <class>com.appian.types.AnyCDTs</class>
+  </datatype>
+
+  <smart-service name="TestCDTAnyDB3" key="TestCDTAnyDB3"
+    class="co.uk.pshealth.TestCDTAnyDB" />
+</appian-plugin>
